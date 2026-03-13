@@ -1,0 +1,73 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      body {
+        background-color: black;
+        color: white;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .box {
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(85, 83, 83, 0.837);
+        width: 350px;
+        border-radius: 10px;
+        padding: 30px;
+      }
+      h1 {
+        margin-bottom: 70px;
+        margin-right: 120px;
+        align-self: flex-start;
+      }
+      .Products {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+      }
+      .Product {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        color: black;
+        padding: 12px;
+        border-radius: 12px;
+      }
+      button {
+        margin-left: 12px;
+        background-color: rgb(162, 93, 226);
+        color: white;
+        border-radius: 7px;
+        padding: 6px 8px;
+        border: none;
+      }
+      .cart-title {
+        margin-top: 30px;
+      }
+      .buy {
+        background-color: rgb(162, 93, 226);
+        color: white;
+        border-radius: 7px;
+        padding: 6px 8px;
+        border: none;
+        margin-top: auto;
+      }
+      #cartItems {
+        margin-bottom: 10px;
+      }
+      #totalDiv {
+        margin-top: 10px;
+      }
+      .success {
+        margin-top: 14px;
+      }
